@@ -11,7 +11,7 @@ namespace Database
         public string Nome { get; set; }
 
 
-        public List<Cliente> Clientes()
+        public List<Cliente> Clientes(string cliente)
         {
             var clientes = new List<Cliente>();
             clientes.Add(new Cliente() { Nome = "Luke" });
